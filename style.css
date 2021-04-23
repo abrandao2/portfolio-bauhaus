@@ -8,6 +8,11 @@
   src: url('./RubikMonoOne-Regular.ttf');
 }
 
+@font-face {
+  font-family: 'Artistic-80';
+  src: url('./MajorMonoDisplay-Regular.ttf');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -50,6 +55,7 @@
   background-color: #333;
   position: absolute;
   right: 32%;
+  z-index: 5;
 }
 
 .top-line {
@@ -106,9 +112,9 @@
   font-family: Rubik-Bold;
   transform: rotate(270deg);
   top: 32%;
-  left: 10%;
+  left: calc(100vh * 0.1);
   font-size: 7em;
-  color: #333;
+  color: rgb(185, 220, 224);
 }
 
 #enter-text--c {
@@ -116,7 +122,7 @@
   font-family: Rubik-Bold;
   transform: rotate(270deg);
   top: 34%;
-  left: 10%;
+  left: calc(100vh * 0.1);
   font-size: 7em;
   color: rgba(0, 255, 255, 0.5);
   visibility: hidden;
@@ -131,7 +137,7 @@
   font-family: Rubik-Bold;
   transform: rotate(270deg);
   top: 32%;
-  left: 10%;
+  left: calc(100vh * 0.1);
   font-size: 7em;
   color: rgba(255, 0, 255, 0.5);
   visibility: hidden;
@@ -142,8 +148,28 @@
   font-family: Rubik-Bold;
   transform: rotate(270deg);
   top: 30%;
-  left: 10%;
+  left: calc(100vh * 0.1);
   font-size: 7em;
   color: rgba(255, 255, 0, 0.5);
   visibility: hidden;
+}
+
+#circle {
+  height: 15rem;
+  width: 15rem;
+  background-color: rgb(185, 220, 224);
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  right: 28%;
+  z-index: 0;
+}
+
+#web-dev {
+  position: absolute;
+  text-transform: uppercase;
+  font-family: Rubik-Bold;
+  font-size: 2rem;
+  top: 27%;
+  color: #333;
 }
