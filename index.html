@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="main">
+    <div class="card">
+      <div class="top-line">
+        <div id="tl-rect" class="tl-rect">
+
+        </div>
+        <div class="tr-rect"></div>
+      </div>
+      <div class="bottom-line">
+        <div class="bl-rect"></div>
+        <div class="br-rect"></div>
+      </div>
+    </div>
+    <div class="vertical-line"></div>
+    <div class="horizontal-line">
+      <div
+        id="horizontal-inscription"
+        class="horizontal-inscription"
+      >
+        Andre Brandao - Saint-Petersburg - 2021
+      </div>
+    </div>
+    <div id="enter-text" onmouseover="onHover(true)">ENTER</div>
+    <div id="enter-text--c" onmouseout="onHover(false)">ENTER</div>
+    <div id="enter-text--m" onmouseout="onHover(false)">ENTER</div>
+    <div id="enter-text--y" onmouseout="onHover(false)">ENTER</div>
+  </div>
+  <script>
+    function onHover(condition) {
+      if (condition) {
+        document.getElementById('enter-text').style.visibility = 'hidden';
+        document.getElementById('enter-text--c').style.visibility = 'visible';
+        document.getElementById('enter-text--m').style.visibility = 'visible';
+        document.getElementById('enter-text--y').style.visibility = 'visible';
+      } else {
+        document.getElementById('enter-text').style.visibility = 'visible';
+        document.getElementById('enter-text--c').style.visibility = 'hidden';
+        document.getElementById('enter-text--m').style.visibility = 'hidden';
+        document.getElementById('enter-text--y').style.visibility = 'hidden';
+      }
+    }
+  </script>
+</body>
+</html>
