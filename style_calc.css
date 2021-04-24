@@ -1,0 +1,179 @@
+@font-face {
+  font-family: 'Constructivist';
+  src: url('./Geo-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Rubik-Bold';
+  src: url('./RubikMonoOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Artistic-80';
+  src: url('./MajorMonoDisplay-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Modern-Wide-Bold';
+  src: url('./Syncopate-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Modern-Wide';
+  src: url('./Syncopate-Regular.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background: linear-gradient(to bottom right, rgba(255, 247, 231, 1), rgba(255, 247, 231, 0.7));
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  height: 90vh;
+  width: 60vw;
+  box-shadow: 10px 10px 9px 0px rgba(0,0,0,0.17);
+  -webkit-box-shadow: 10px 10px 9px 0px rgba(0,0,0,0.17);
+  -moz-box-shadow: 10px 10px 9px 0px rgba(0,0,0,0.17);
+  display: flex;
+  flex-direction: column;
+  border-color: #333;
+  border-radius: 1rem;
+  background-color: rgb(238, 226, 204);
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.calc {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.display {
+  margin-bottom: 1.5rem;
+  height: 5rem;
+  font-family: Constructivist;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 4.5rem;
+  font-weight: bold;
+  color: #333;
+  letter-spacing: 4px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn--sqr, .btn--round-0, .btn--round-1, .btn--round-2, .btn--round-3 {
+  background-color: rgb(82, 143, 174);
+  height: 5rem;
+  width: 5rem;
+  margin: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Constructivist;
+  color: rgb(185, 220, 224);
+  font-size: 2.5rem;
+}
+
+.btn--round-0, .btn--round-1, .btn--round-2, .btn--round-3 {
+  border-bottom-left-radius: 2.5rem;
+}
+
+.btn--round-1, .btn--round-2, .btn--round-3 {
+  border-top-right-radius: 2.5rem;
+}
+
+.btn--round-2, .btn--round-3 {
+  border-top-left-radius: 2.5rem;
+}
+
+.btn--round-3 {
+  border-bottom-right-radius: 2.5rem;
+}
+
+.btn--orange {
+  background-color: rgb(249, 161, 28);
+  color: rgba(255, 255, 0, 0.5);
+}
+
+.btn--red {
+  background-color: rgb(241, 87, 49);
+  color: rgb(255, 247, 231);
+}
+
+.btn--digit {
+  background: rgb(185, 220, 224);
+  color: rgb(255, 247, 231);
+  font-family: Modern-Wide-Bold;
+  font-size: 2rem;
+}
+
+.horizontal-line {
+  position: absolute;
+  border-top: #333 2px solid;
+  bottom: 48.5%;
+  z-index: 5;
+  height: 1rem;
+  width: 45vw;
+  right: 22%;
+  background-color: rgb(238, 226, 204);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 1.2rem;
+  font-family: Modern-Wide;
+  padding-top: 5px;
+}
+
+.vertical-line {
+  position: absolute;
+  height: 90vh;
+  width: 1.5rem;
+}
+
+.vertical-line--orange {
+  background-color: rgb(249, 161, 28);
+  left: 22%;
+}
+
+.vertical-line--red {
+  background-color: rgb(241, 87, 49);
+  left: 24.5%;
+}
+
+.vertical-line--blue {
+  background-color: rgb(82, 143, 174);
+  left: 27%;
+}
+
+.vertical-line--black {
+  background-color: #333;
+  left: 29.5%;
+}
+
+.title {
+  position: absolute;
+  top: 20%;
+  right: 20%;
+  transform: rotate(315deg);
+  font-family: Artistic-80;
+  text-transform: uppercase;
+  font-size: 4rem;
+  color: #333;
+}
