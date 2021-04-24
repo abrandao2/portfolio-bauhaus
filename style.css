@@ -37,12 +37,11 @@
   display: flex;
   flex-direction: column;
   border-color: #333;
-  border-left: 2rem #333 solid;
   border-radius: 1rem;
 }
 
 .horizontal-line {
-  width: calc(60vw + 2rem);
+  width: 60vw;
   height: 2rem;
   background-color: #333;
   position: absolute;
@@ -79,6 +78,7 @@
   flex-grow: 4;
   display: flex;
   flex-direction: row;
+  border-top-left-radius: 2rem;
 }
 
 .tr-rect {
@@ -90,6 +90,7 @@
 .bl-rect {
   background-color: rgb(249, 161, 28);
   flex-grow: 4;
+  border-bottom-left-radius: 1rem;
 }
 
 .br-rect {
