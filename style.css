@@ -13,9 +13,19 @@
   src: url('./MajorMonoDisplay-Regular.ttf');
 }
 
+@font-face {
+  font-family: 'Chinese-Thin';
+  src: url('./NotoSansSC-Thin.otf');
+}
+
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-image: url('./so-white.png');
+  background-repeat: repeat;
 }
 
 .main {
@@ -176,4 +186,13 @@
   top: 20%;
   right: 35%;
   color: #333;
+}
+
+.chinese-name {
+  position: absolute;
+  font-family: Chinese-Thin;
+  font-size: 5rem;
+  writing-mode: vertical-lr;
+  right: 20.5%;
+  top: 10%;
 }
