@@ -1,26 +1,26 @@
 @font-face {
   font-family: 'Constructivist';
-  src: url('./Geo-Regular.ttf');
+  src: url('../fonts/Geo-Regular.ttf');
 }
 
 @font-face {
   font-family: 'Rubik-Bold';
-  src: url('./RubikMonoOne-Regular.ttf');
+  src: url('../fonts/RubikMonoOne-Regular.ttf');
 }
 
 @font-face {
   font-family: 'Artistic-80';
-  src: url('./MajorMonoDisplay-Regular.ttf');
+  src: url('../fonts/MajorMonoDisplay-Regular.ttf');
 }
 
 @font-face {
   font-family: 'Modern-Wide-Bold';
-  src: url('./Syncopate-Bold.ttf');
+  src: url('../fonts/Syncopate-Bold.ttf');
 }
 
 @font-face {
   font-family: 'Modern-Wide';
-  src: url('./Syncopate-Regular.ttf');
+  src: url('../fonts/Syncopate-Regular.ttf');
 }
 
 * {

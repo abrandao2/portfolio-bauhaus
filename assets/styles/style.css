@@ -1,21 +1,21 @@
 @font-face {
   font-family: 'Constructivist';
-  src: url('./Geo-Regular.ttf');
+  src: url('../fonts/Geo-Regular.ttf');
 }
 
 @font-face {
   font-family: 'Rubik-Bold';
-  src: url('./RubikMonoOne-Regular.ttf');
+  src: url('../fonts/RubikMonoOne-Regular.ttf');
 }
 
 @font-face {
   font-family: 'Artistic-80';
-  src: url('./MajorMonoDisplay-Regular.ttf');
+  src: url('../fonts/MajorMonoDisplay-Regular.ttf');
 }
 
 @font-face {
   font-family: 'Chinese-Thin';
-  src: url('./NotoSansSC-Thin.otf');
+  src: url('../fonts/NotoSansSC-Thin.otf');
 }
 
 * {
@@ -24,7 +24,7 @@
 }
 
 body {
-  background-image: url('./double-bubble-outline.png');
+  background-image: url('../images/double-bubble-outline.png');
   background-repeat: repeat;
 }
 
@@ -127,7 +127,7 @@ body {
   top: 32%;
   left: 8%;
   font-size: 7em;
-  color: rgb(82, 143, 174);;
+  color: rgb(82, 143, 174);
 }
 
 #enter-text--c {
