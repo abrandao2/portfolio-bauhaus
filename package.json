@@ -1,0 +1,19 @@
+{
+  "name": "bauhaus-portfolio",
+  "version": "0.1.0",
+  "description": "2021 version of my portfolio in the Bauhaus style.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev01766/portfolio-bauhaus.git"
+  },
+  "author": "Andre Silva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dev01766/portfolio-bauhaus/issues"
+  },
+  "homepage": "https://github.com/dev01766/portfolio-bauhaus#readme"
+}
